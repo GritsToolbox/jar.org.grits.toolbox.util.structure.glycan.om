@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<byonic-preference>
+    <component name="HexNac">
+        <sequence>RES
+1b:x-HEX-1:5
+2s:n-acetyl
+LIN
+1:1d(2+1)2n</sequence>
+    </component>
+    <component name="HexN">
+        <sequence>RES
+1b:x-HEX-x:x|1:a
+2s:amino
+LIN
+1:1d(2+1)2n</sequence>
+    </component>
+    <component name="NeuAC">
+        <sequence>RES
+1b:x-dgro-dgal-NON-x:x|1:a|2:keto|3:d
+2s:n-acetyl
+LIN
+1:1d(5+1)2n</sequence>
+    </component>
+    <component name="NeuGC">
+        <sequence>RES
+1b:x-dgro-dgal-NON-x:x|1:a|2:keto|3:d
+2s:n-glycolyl
+LIN
+1:1d(5+1)2n</sequence>
+    </component>
+    <component name="KDN">
+        <sequence>RES
+1b:x-dgro-dgal-NON-x:x|1:a|2:keto|3:d</sequence>
+    </component>
+    <component name="dHex">
+        <sequence>RES
+1b:x-HEX-x:x|6:d</sequence>
+    </component>
+    <component name="Hex">
+        <sequence>RES
+1b:x-HEX-x:x</sequence>
+    </component>
+    <component name="Pent">
+        <sequence>RES
+1b:x-PEN-x:x</sequence>
+    </component>
+    <component name="Methyl">
+        <sequence>RES
+1s:methyl</sequence>
+    </component>
+    <component name="GlcA">
+        <sequence>RES
+1b:x-dglc-HEX-1:5|6:a</sequence>
+    </component>
+    <component name="IdoA">
+        <sequence>RES
+1b:x-lido-HEX-1:5|6:a</sequence>
+    </component>
+    <component name="Phosphate">
+        <sequence>RES
+1s:phosphate</sequence>
+    </component>
+    <component name="Sulfate">
+        <sequence>RES
+1s:sulfate</sequence>
+    </component>
+</byonic-preference>
